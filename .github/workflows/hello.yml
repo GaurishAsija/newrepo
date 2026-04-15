@@ -12,3 +12,11 @@ jobs:
 
        - name: Print my name
          run: echo "Gaurish"
+  Say-bye:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Print message
+         run: echo "Hello, Github Actions!"
+         
+
